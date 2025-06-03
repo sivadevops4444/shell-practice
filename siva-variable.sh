@@ -1,5 +1,5 @@
 PERSON1=SIVA
-PERSON2=VISWA
+PERSON2=MUNI
 
 
 echo "$PERSON1 : Hey $PERSON2, How are you"
