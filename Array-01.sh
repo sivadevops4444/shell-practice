@@ -3,6 +3,6 @@
 #!/bin/bash
 
 
-Movies=["court" "thandel" "HIT3" "nannaku prematho"]
+Movies=["court" "thandel" "HIT3" "nannakuprematho"]
 
-echo "first movie is $Movies[0]"
+echo "first movie is ${Movies[0]}"
