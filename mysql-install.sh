@@ -17,7 +17,7 @@ fi  #fi means exit the script here
 
 yum install mysql   #command for the installation of mysql package
 
-
+yum install mysql -y
 
 
 
