@@ -17,6 +17,14 @@ fi  #fi means exit the script here
 
 yum install mysql -y   #command for the installation of mysql package
 
+if [ $? -eq 0 ]
+then
+echo "MYSQL is successfully installed.....Great SUCCESS"
+
+else
+echo "MYSQL is not installed....Failure"
+
+fi
 
 
 
