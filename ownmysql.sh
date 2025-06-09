@@ -24,3 +24,4 @@ if [ $ROOTUSERID -eq 0 ]
 
     else
     echo " Hey buddy..Sorry MYSQL Package was not installed "
+    fi
