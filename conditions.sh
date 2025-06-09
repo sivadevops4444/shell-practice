@@ -14,7 +14,7 @@ echo "Below is the example program for conditions"
 
 NUMBER=$1
 
-if [ NUMBER -lt 10 ]
+if [ $NUMBER -lt 10 ]
 
 then
 echo " you are givin number is the less than 10 "
