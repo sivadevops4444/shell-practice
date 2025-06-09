@@ -5,9 +5,9 @@
 #!/bin/bash
 
 
-ROOT_USERID=$1
+ROOTUSERID=$1
 
-if [ $ROOT_USERID -eq 0 ]
+if [ $ROOTUSERID -eq 0 ]
     
     then 
 
