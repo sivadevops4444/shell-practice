@@ -15,9 +15,8 @@ else
 echo " Sorry : You are the not ROOT user, So you have no privilizes to do installation of MYSQL"
 fi  #fi means exit the script here
 
-yum install mysql   #command for the installation of mysql package
+yum install mysql -y   #command for the installation of mysql package
 
-yum install mysql -y
 
 
 
