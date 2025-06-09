@@ -1,4 +1,5 @@
  
+#hi this is siva
 #!/bin/bash
 
 
@@ -12,7 +13,7 @@ if [ $ROOTUSERID -eq 0 ]
     else
     echo " Hi Sorry...You are not a ROOT user. Please run with ROOT user credencials...Thank you"
     fi
-    
+
     yum install mysql -y
 
     if [ $? -eq 0 ]
