@@ -19,8 +19,6 @@ if [ $USERID -eq 0 ]
     echo " MYSQL Package is already installed...Thank you"
     else
     echo " MYSQL Package is not installed so...Installing NOW...."
-    exit 1
-    
 
     yum install mysql -y
 
