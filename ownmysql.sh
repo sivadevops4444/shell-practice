@@ -3,16 +3,14 @@
 #!/bin/bash
 
 
-ROOTUSERID=$1
+USERID=$1
 
-if [ $ROOTUSERID -eq 0 ]
-    
+if [ $USERID -eq 0 ]
     then 
     echo " HI, Great You are the ROOT user and you can install the package"
 
     else
     echo " Hi Sorry...You are not a ROOT user. Please run with ROOT user credencials...Thank you"
-    fi
 
     yum install mysql -y
 
