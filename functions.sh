@@ -12,7 +12,7 @@ else
 echo " You are running with root access"
 fi
 
-yum install mysql
+yum install mysql -y
 
 if [ $? -eq 0 ]
 then
@@ -21,11 +21,13 @@ else
     echo " Sorry.. MYSQL was not installed"
 fi
 
-if [ $? -eq 0 ]
-then 
-    echo " Installing SCREEN package"
+yum install screen -y
+    
+    if [ $? -eq 0 ]
+then
+    echo " SCREEN package installed sucecssfully"
 else
-    exit 1
+    echo " SCREEN package not installed on the server"
     fi
 
 
