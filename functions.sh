@@ -21,4 +21,11 @@ else
     echo " Sorry.. MYSQL was not installed"
 fi
 
+if [ $? -eq 0 ]
+then 
+    echo " Installing SCREEN package"
+else
+    exit 1
+    fi
+
 
