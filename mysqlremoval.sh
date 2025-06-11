@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rpm -qa | grep -i mysql
-if [ $? -eq 0 ]
+if [ $? -eq 1 ]
 then
     echo " MYSQL is installed so...Going to remove."
 else
